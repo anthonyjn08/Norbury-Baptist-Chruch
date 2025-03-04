@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" type="text/html" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Home | Norbury Baptist Church</title>
+  </head>
+  <body class="font-[Open Sans]">
+    <!-- NavBar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex container for all items -->
+      <div class="flex items-center justify-between">
+        <!-- Flex container for Logo -->
+        <div class="flex items-center space-x-20">
+          <p class="text-3xl font-semibold">Norbury Baptist Church</p>
+        </div>
+      </div>
+
+      <!-- Right menu -->
+      <div class="space-x-8 font-bold lg:flex">
+        <a href="" class="py-2 px-3">Home</a>
+        <button
+          type="button"
+          class="dropdown-toggle py-2 px-3 flex items-center gap-2 relative">
+          <span class="pointer-events-none">About</span>
+          <i class="fa-solid fa-chevron-down point-events-none"></i>
+        </button>
+        <div class="dropdown-menu absolute hidden round-b-lg pb-2 w-48">
+          <a href="#" class="block px-6 py-2">About Us</a>
+          <a href="#" class="block px-6 py-2">What we believe</a>
+          <a href="#" class="block px-6 py-2">Our Visions and Aims</a>
+          <a href="#" class="block px-6 py-2">Connections</a>
+        </div>
+        <a href="" class="py-2 px-3">Calendar</a>
+        <a href="" class="py-2 px-3">Contact Us</a>
+      </div>
+    </nav>
+    <h1 class="text-3xl text-blue-800">Norbury Baptist Church</h1>
+    <script src="index.js"></script>
+  </body>
+</html>
